@@ -70,3 +70,9 @@ CMS Plugins – Auto-fill alt tags for images in WordPress, Shopify, etc.
 
 Mobile Apps – Assist users in capturing and understanding their surroundings.
 
+### Acknowledgments
+Salesforce Research for BLIP
+
+Hugging Face Transformers
+
+Gradio
