@@ -41,3 +41,32 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 pip install --upgrade pip
 pip install torch transformers pillow gradio
+```
+
+Tip: Install a CUDA-enabled PyTorch build if you have a GPU for faster generation.
+
+### Run the App
+
+```bash
+python image_captioning_app.py
+```
+Gradio will give you a local link (e.g. http://127.0.0.1:7860) — open it in your browser and start captioning images.
+
+### Example Output:
+
+🐶 Dog photo	"a small brown and white dog lying on a couch".
+
+🏞️ Landscape	"a scenic view of mountains under a cloudy sky".
+
+🍎 Product	"a red apple with a green leaf on top".
+
+### Integration Ideas
+
+Screen Reader Enhancement
+
+Slack Bots – Auto-caption images posted in chat.
+
+CMS Plugins – Auto-fill alt tags for images in WordPress, Shopify, etc.
+
+Mobile Apps – Assist users in capturing and understanding their surroundings.
+
